@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", function() {
         switch (true) {
             case username === "sam" && password === "yak":
                 alert("Login successful!");
-                // You can redirect to a new page here if login is successful.
+                window.location.href = "homepage.html";
+                
                 break;
             default:
                 alert("Invalid username or password. Please try again.");
